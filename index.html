@@ -4,24 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DevFolio</title>
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css"
+/>
     <style>
         body {
-            /* background-color: black; */
+            background-color: black;
         }
         code{
             color: #ffffff;
-            background-color: aqua;        
+            font-size: larger;
         }
-        .code{
-            color: #ffffff;
-            background-color: aqua;        
+        .intro{
+            display: flex;
+            flex-direction: column;
         }
+        
         
     </style>
 </head>
 <body>
-    <pre>
-<code class="language-javascript" id="code"></code>
+    <div id="intro">
+ <pre >
+<code class="hljs language-javascript" >
   const Madhav: Dev = {
   name: "Madhav Majumdar",
   role: "Full-Stack & Mobile ",
@@ -39,8 +45,65 @@
   philosophy: () =>
     "Build, write code, when needed."
 };
- 
+</code>
+</pre>
+<pre>
+    <code class="hljs language-javascript">
+class Experience {
+
+  WorkExperience[] {
+    return [
+      {
+        organization: "Apertre 3.0",
+        role: "Mentee",
+        duration: "Feb 2026 – Present",
+        contributions: [
+          "Worked on skill-aligned projects under structured mentorship",
+          "Gained hands-on development experience through real-world tasks",
+          "Improved problem-solving and collaborative development practices"
+        ]
+      },
+      {
+        organization: "Processing Foundation",
+        role: "Open Source Contributor",
+        duration: "May 2025 – Sept 2026",
+        contributions: [
+          "Migrated core build system from Ant to Gradle",
+          "Upgraded p5.js client-side validation from Zod v3 to Zod v4",
+          "Contributed to improving build reliability and developer experience"
+        ]
+      },
+      {
+        organization: "Liquid Galaxy",
+        role: "External Contributor",
+        duration: "Mar 2025 – Jul 2025",
+        contributions: [
+          "Applied to the #BuildWithAI contest",
+          "Collaborated with GSoC-selected team members",
+          "Contributed to feature development and experimentation efforts"
+        ]
+      },
+      {
+        organization: "SSDN Technologies",
+        role: "On-site Technical Support",
+        duration: "Jan 2025 – Feb 2025",
+        contributions: [
+          "Installed and configured operating systems based on client requirements",
+          "Diagnosed hardware and software issues in on-site environments",
+          "Provided hands-on technical troubleshooting and support"
+        ]
+      }
+    ];
+  }
+}
+
+    </code>
 </pre>
 
+    </div>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script>
+  hljs.highlightAll();
+</script>
 </body>
 </html>
