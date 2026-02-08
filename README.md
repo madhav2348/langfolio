@@ -1,1 +1,3 @@
-https://github.com/madhav2348/devfolio/blob/f7bc26c79ac368be4b3539cc7866cd9fcff1225c/index.html#L31-L99
+https://github.com/madhav2348/devfolio/blob/35b25c8f515ae735f8a5a590f5cd6a6566758ffe/index.html#L31-L47
+
+https://github.com/madhav2348/devfolio/blob/35b25c8f515ae735f8a5a590f5cd6a6566758ffe/index.html#L52-L98
